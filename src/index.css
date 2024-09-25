@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    background-color: #219c90;
+}
+
+
+button:active {
+    transform: scale(2);
+    transition: 0.5s;
+}
+
+
+.done {
+    text-decoration: line-through;
+}
+
+li {
+    overflow-wrap: break-word;
+}
